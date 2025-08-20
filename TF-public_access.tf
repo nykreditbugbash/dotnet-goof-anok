@@ -1,4 +1,5 @@
 resource "aws_db_instance" "db" {
+  storage_encrypted    = true
   publicly_accessible  = false
   allocated_storage    = 20
   storage_type         = "gp2"
