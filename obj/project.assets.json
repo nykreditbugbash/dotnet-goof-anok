@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
+    "net8.0": {
       "AngleSharp/0.17.1": {
         "type": "package",
         "dependencies": {
@@ -94,12 +94,12 @@
           "System.Threading.Tasks.Extensions": "4.5.4"
         },
         "compile": {
-          "lib/netcoreapp2.1/Azure.Core.dll": {
+          "lib/net5.0/Azure.Core.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netcoreapp2.1/Azure.Core.dll": {
+          "lib/net5.0/Azure.Core.dll": {
             "related": ".xml"
           }
         }
@@ -141,12 +141,12 @@
       "BouncyCastle.Cryptography/2.4.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/BouncyCastle.Cryptography.dll": {
+          "lib/net6.0/BouncyCastle.Cryptography.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/BouncyCastle.Cryptography.dll": {
+          "lib/net6.0/BouncyCastle.Cryptography.dll": {
             "related": ".xml"
           }
         }
@@ -154,13 +154,12 @@
       "Csla/5.5.4": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "3.1.9",
-          "Microsoft.Extensions.Configuration.Binder": "3.1.9",
-          "Microsoft.Extensions.DependencyInjection": "3.1.9",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.9",
-          "NETStandard.Library": "2.0.0",
+          "Microsoft.Extensions.Configuration": "5.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "5.0.0",
+          "Microsoft.Extensions.DependencyInjection": "5.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
           "System.ComponentModel": "4.3.0",
-          "System.ComponentModel.Annotations": "4.7.0",
+          "System.ComponentModel.Annotations": "5.0.0",
           "System.ComponentModel.Primitives": "4.3.0",
           "System.Reflection": "4.3.0",
           "System.Runtime.Serialization.Formatters": "4.3.0",
@@ -170,95 +169,95 @@
           "System.Threading.ThreadPool": "4.3.0"
         },
         "compile": {
-          "lib/netstandard2.0/Csla.dll": {
+          "lib/net5.0/Csla.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Csla.dll": {
+          "lib/net5.0/Csla.dll": {
             "related": ".xml"
           }
         },
         "resource": {
-          "lib/netstandard2.0/ar/Csla.resources.dll": {
+          "lib/net5.0/ar/Csla.resources.dll": {
             "locale": "ar"
           },
-          "lib/netstandard2.0/bs/Csla.resources.dll": {
+          "lib/net5.0/bs/Csla.resources.dll": {
             "locale": "bs"
           },
-          "lib/netstandard2.0/ca-ES/Csla.resources.dll": {
+          "lib/net5.0/ca-ES/Csla.resources.dll": {
             "locale": "ca-ES"
           },
-          "lib/netstandard2.0/da/Csla.resources.dll": {
+          "lib/net5.0/da/Csla.resources.dll": {
             "locale": "da"
           },
-          "lib/netstandard2.0/de/Csla.resources.dll": {
+          "lib/net5.0/de/Csla.resources.dll": {
             "locale": "de"
           },
-          "lib/netstandard2.0/el/Csla.resources.dll": {
+          "lib/net5.0/el/Csla.resources.dll": {
             "locale": "el"
           },
-          "lib/netstandard2.0/es-ES/Csla.resources.dll": {
+          "lib/net5.0/es-ES/Csla.resources.dll": {
             "locale": "es-ES"
           },
-          "lib/netstandard2.0/es/Csla.resources.dll": {
+          "lib/net5.0/es/Csla.resources.dll": {
             "locale": "es"
           },
-          "lib/netstandard2.0/fr/Csla.resources.dll": {
+          "lib/net5.0/fr/Csla.resources.dll": {
             "locale": "fr"
           },
-          "lib/netstandard2.0/he-IL/Csla.resources.dll": {
+          "lib/net5.0/he-IL/Csla.resources.dll": {
             "locale": "he-IL"
           },
-          "lib/netstandard2.0/hr/Csla.resources.dll": {
+          "lib/net5.0/hr/Csla.resources.dll": {
             "locale": "hr"
           },
-          "lib/netstandard2.0/hu/Csla.resources.dll": {
+          "lib/net5.0/hu/Csla.resources.dll": {
             "locale": "hu"
           },
-          "lib/netstandard2.0/it/Csla.resources.dll": {
+          "lib/net5.0/it/Csla.resources.dll": {
             "locale": "it"
           },
-          "lib/netstandard2.0/km-KH/Csla.resources.dll": {
+          "lib/net5.0/km-KH/Csla.resources.dll": {
             "locale": "km-KH"
           },
-          "lib/netstandard2.0/nl/Csla.resources.dll": {
+          "lib/net5.0/nl/Csla.resources.dll": {
             "locale": "nl"
           },
-          "lib/netstandard2.0/no/Csla.resources.dll": {
+          "lib/net5.0/no/Csla.resources.dll": {
             "locale": "no"
           },
-          "lib/netstandard2.0/pt-BR/Csla.resources.dll": {
+          "lib/net5.0/pt-BR/Csla.resources.dll": {
             "locale": "pt-BR"
           },
-          "lib/netstandard2.0/pt/Csla.resources.dll": {
+          "lib/net5.0/pt/Csla.resources.dll": {
             "locale": "pt"
           },
-          "lib/netstandard2.0/ro/Csla.resources.dll": {
+          "lib/net5.0/ro/Csla.resources.dll": {
             "locale": "ro"
           },
-          "lib/netstandard2.0/ru/Csla.resources.dll": {
+          "lib/net5.0/ru/Csla.resources.dll": {
             "locale": "ru"
           },
-          "lib/netstandard2.0/sr/Csla.resources.dll": {
+          "lib/net5.0/sr/Csla.resources.dll": {
             "locale": "sr"
           },
-          "lib/netstandard2.0/sv/Csla.resources.dll": {
+          "lib/net5.0/sv/Csla.resources.dll": {
             "locale": "sv"
           },
-          "lib/netstandard2.0/tr/Csla.resources.dll": {
+          "lib/net5.0/tr/Csla.resources.dll": {
             "locale": "tr"
           },
-          "lib/netstandard2.0/uk-ua/Csla.resources.dll": {
+          "lib/net5.0/uk-ua/Csla.resources.dll": {
             "locale": "uk-ua"
           },
-          "lib/netstandard2.0/vi/Csla.resources.dll": {
+          "lib/net5.0/vi/Csla.resources.dll": {
             "locale": "vi"
           },
-          "lib/netstandard2.0/zh-Hans/Csla.resources.dll": {
+          "lib/net5.0/zh-Hans/Csla.resources.dll": {
             "locale": "zh-Hans"
           },
-          "lib/netstandard2.0/zh-TW/Csla.resources.dll": {
+          "lib/net5.0/zh-TW/Csla.resources.dll": {
             "locale": "zh-TW"
           }
         }
@@ -269,17 +268,17 @@
           "System.IO.Packaging": "4.7.0"
         },
         "compile": {
-          "lib/netstandard2.0/DocumentFormat.OpenXml.dll": {
+          "lib/net6.0/DocumentFormat.OpenXml.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/DocumentFormat.OpenXml.dll": {
+          "lib/net6.0/DocumentFormat.OpenXml.dll": {
             "related": ".xml"
           }
         }
       },
-      "DotNetNuke.Core/7.4.0.353": {
+      "DotNetNuke.Core/7.4.1.280": {
         "type": "package",
         "compile": {
           "lib/net40/DotNetNuke.dll": {},
@@ -312,12 +311,12 @@
       "fastJSON/2.4.0.4": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/fastJSON.dll": {
+          "lib/net5.0/fastJSON.dll": {
             "related": ".deps.json"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/fastJSON.dll": {
+          "lib/net5.0/fastJSON.dll": {
             "related": ".deps.json"
           }
         }
@@ -487,314 +486,320 @@
           "Ude.NetStandard": "1.2.0"
         },
         "compile": {
-          "lib/netstandard2.0/CMS.Activities.Loggers.dll": {
+          "lib/net8.0/CMS.Activities.Loggers.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Activities.dll": {
+          "lib/net8.0/CMS.Activities.dll": {
             "related": ".Loggers.xml;.xml"
           },
-          "lib/netstandard2.0/CMS.AmazonStorage.dll": {
+          "lib/net8.0/CMS.AmazonStorage.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Automation.dll": {
+          "lib/net8.0/CMS.AspNetCore.Platform.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.AzureStorage.dll": {
+          "lib/net8.0/CMS.Automation.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Base.dll": {
+          "lib/net8.0/CMS.AzureStorage.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.ComputerVision.Azure.dll": {
+          "lib/net8.0/CMS.Base.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.ContactManagement.dll": {
+          "lib/net8.0/CMS.ComputerVision.Azure.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.ContinuousIntegration.dll": {
+          "lib/net8.0/CMS.ContactManagement.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Core.dll": {
+          "lib/net8.0/CMS.ContinuousIntegration.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.CustomTables.dll": {
+          "lib/net8.0/CMS.Core.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.DataEngine.dll": {
+          "lib/net8.0/CMS.CustomTables.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.DataProtection.dll": {
+          "lib/net8.0/CMS.DataEngine.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.DocumentEngine.dll": {
+          "lib/net8.0/CMS.DataProtection.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Ecommerce.dll": {
+          "lib/net8.0/CMS.DocumentEngine.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.EmailEngine.dll": {
+          "lib/net8.0/CMS.Ecommerce.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.EventLog.dll": {
+          "lib/net8.0/CMS.EmailEngine.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.FormEngine.dll": {
+          "lib/net8.0/CMS.EventLog.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Globalization.dll": {
+          "lib/net8.0/CMS.FormEngine.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Helpers.dll": {
+          "lib/net8.0/CMS.Globalization.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.IO.dll": {
+          "lib/net8.0/CMS.Helpers.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.ImportExport.dll": {
+          "lib/net8.0/CMS.IO.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.LicenseProvider.dll": {
+          "lib/net8.0/CMS.ImportExport.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.MacroEngine.dll": {
+          "lib/net8.0/CMS.LicenseProvider.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.MediaLibrary.dll": {
+          "lib/net8.0/CMS.MacroEngine.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Membership.dll": {
+          "lib/net8.0/CMS.MediaLibrary.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Modules.dll": {
+          "lib/net8.0/CMS.Membership.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Newsletters.dll": {
+          "lib/net8.0/CMS.Modules.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.OnlineForms.dll": {
+          "lib/net8.0/CMS.Newsletters.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.OnlineMarketing.dll": {
+          "lib/net8.0/CMS.OnlineForms.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Personas.dll": {
+          "lib/net8.0/CMS.OnlineMarketing.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Relationships.dll": {
+          "lib/net8.0/CMS.Personas.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Reporting.dll": {
+          "lib/net8.0/CMS.Relationships.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.ResponsiveImages.dll": {
+          "lib/net8.0/CMS.Reporting.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Routing.Web.dll": {
+          "lib/net8.0/CMS.ResponsiveImages.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.SalesForce.dll": {
+          "lib/net8.0/CMS.Routing.Web.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Scheduler.dll": {
+          "lib/net8.0/CMS.SalesForce.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Search.Azure.dll": {
+          "lib/net8.0/CMS.Scheduler.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Search.Lucene3.dll": {
+          "lib/net8.0/CMS.Search.Azure.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Search.TextExtractors.dll": {
+          "lib/net8.0/CMS.Search.Lucene3.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Search.dll": {
+          "lib/net8.0/CMS.Search.TextExtractors.dll": {
+            "related": ".xml"
+          },
+          "lib/net8.0/CMS.Search.dll": {
             "related": ".Azure.xml;.Lucene3.xml;.TextExtractors.xml;.xml"
           },
-          "lib/netstandard2.0/CMS.SiteProvider.dll": {
+          "lib/net8.0/CMS.SiteProvider.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Synchronization.dll": {
+          "lib/net8.0/CMS.Synchronization.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.SynchronizationEngine.dll": {
+          "lib/net8.0/CMS.SynchronizationEngine.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Taxonomy.dll": {
+          "lib/net8.0/CMS.Taxonomy.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.TextAnalytics.Azure.dll": {
+          "lib/net8.0/CMS.TextAnalytics.Azure.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.TranslationServices.dll": {
+          "lib/net8.0/CMS.TranslationServices.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.WebAnalytics.dll": {
+          "lib/net8.0/CMS.WebAnalytics.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.WebFarmSync.dll": {
+          "lib/net8.0/CMS.WebFarmSync.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.WorkflowEngine.dll": {
+          "lib/net8.0/CMS.WorkflowEngine.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/Lucene.Net.WordNet.SynExpand.dll": {},
-          "lib/netstandard2.0/Lucene.Net.v3.dll": {},
-          "lib/netstandard2.0/PDFClown.dll": {}
+          "lib/net8.0/Lucene.Net.WordNet.SynExpand.dll": {},
+          "lib/net8.0/Lucene.Net.v3.dll": {},
+          "lib/net8.0/PDFClown.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/CMS.Activities.Loggers.dll": {
+          "lib/net8.0/CMS.Activities.Loggers.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Activities.dll": {
+          "lib/net8.0/CMS.Activities.dll": {
             "related": ".Loggers.xml;.xml"
           },
-          "lib/netstandard2.0/CMS.AmazonStorage.dll": {
+          "lib/net8.0/CMS.AmazonStorage.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Automation.dll": {
+          "lib/net8.0/CMS.AspNetCore.Platform.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.AzureStorage.dll": {
+          "lib/net8.0/CMS.Automation.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Base.dll": {
+          "lib/net8.0/CMS.AzureStorage.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.ComputerVision.Azure.dll": {
+          "lib/net8.0/CMS.Base.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.ContactManagement.dll": {
+          "lib/net8.0/CMS.ComputerVision.Azure.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.ContinuousIntegration.dll": {
+          "lib/net8.0/CMS.ContactManagement.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Core.dll": {
+          "lib/net8.0/CMS.ContinuousIntegration.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.CustomTables.dll": {
+          "lib/net8.0/CMS.Core.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.DataEngine.dll": {
+          "lib/net8.0/CMS.CustomTables.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.DataProtection.dll": {
+          "lib/net8.0/CMS.DataEngine.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.DocumentEngine.dll": {
+          "lib/net8.0/CMS.DataProtection.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Ecommerce.dll": {
+          "lib/net8.0/CMS.DocumentEngine.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.EmailEngine.dll": {
+          "lib/net8.0/CMS.Ecommerce.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.EventLog.dll": {
+          "lib/net8.0/CMS.EmailEngine.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.FormEngine.dll": {
+          "lib/net8.0/CMS.EventLog.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Globalization.dll": {
+          "lib/net8.0/CMS.FormEngine.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Helpers.dll": {
+          "lib/net8.0/CMS.Globalization.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.IO.dll": {
+          "lib/net8.0/CMS.Helpers.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.ImportExport.dll": {
+          "lib/net8.0/CMS.IO.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.LicenseProvider.dll": {
+          "lib/net8.0/CMS.ImportExport.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.MacroEngine.dll": {
+          "lib/net8.0/CMS.LicenseProvider.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.MediaLibrary.dll": {
+          "lib/net8.0/CMS.MacroEngine.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Membership.dll": {
+          "lib/net8.0/CMS.MediaLibrary.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Modules.dll": {
+          "lib/net8.0/CMS.Membership.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Newsletters.dll": {
+          "lib/net8.0/CMS.Modules.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.OnlineForms.dll": {
+          "lib/net8.0/CMS.Newsletters.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.OnlineMarketing.dll": {
+          "lib/net8.0/CMS.OnlineForms.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Personas.dll": {
+          "lib/net8.0/CMS.OnlineMarketing.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Relationships.dll": {
+          "lib/net8.0/CMS.Personas.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Reporting.dll": {
+          "lib/net8.0/CMS.Relationships.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.ResponsiveImages.dll": {
+          "lib/net8.0/CMS.Reporting.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Routing.Web.dll": {
+          "lib/net8.0/CMS.ResponsiveImages.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.SalesForce.dll": {
+          "lib/net8.0/CMS.Routing.Web.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Scheduler.dll": {
+          "lib/net8.0/CMS.SalesForce.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Search.Azure.dll": {
+          "lib/net8.0/CMS.Scheduler.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Search.Lucene3.dll": {
+          "lib/net8.0/CMS.Search.Azure.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Search.TextExtractors.dll": {
+          "lib/net8.0/CMS.Search.Lucene3.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Search.dll": {
+          "lib/net8.0/CMS.Search.TextExtractors.dll": {
+            "related": ".xml"
+          },
+          "lib/net8.0/CMS.Search.dll": {
             "related": ".Azure.xml;.Lucene3.xml;.TextExtractors.xml;.xml"
           },
-          "lib/netstandard2.0/CMS.SiteProvider.dll": {
+          "lib/net8.0/CMS.SiteProvider.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Synchronization.dll": {
+          "lib/net8.0/CMS.Synchronization.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.SynchronizationEngine.dll": {
+          "lib/net8.0/CMS.SynchronizationEngine.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.Taxonomy.dll": {
+          "lib/net8.0/CMS.Taxonomy.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.TextAnalytics.Azure.dll": {
+          "lib/net8.0/CMS.TextAnalytics.Azure.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.TranslationServices.dll": {
+          "lib/net8.0/CMS.TranslationServices.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.WebAnalytics.dll": {
+          "lib/net8.0/CMS.WebAnalytics.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.WebFarmSync.dll": {
+          "lib/net8.0/CMS.WebFarmSync.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/CMS.WorkflowEngine.dll": {
+          "lib/net8.0/CMS.WorkflowEngine.dll": {
             "related": ".xml"
           },
-          "lib/netstandard2.0/Lucene.Net.WordNet.SynExpand.dll": {},
-          "lib/netstandard2.0/Lucene.Net.v3.dll": {},
-          "lib/netstandard2.0/PDFClown.dll": {}
+          "lib/net8.0/Lucene.Net.WordNet.SynExpand.dll": {},
+          "lib/net8.0/Lucene.Net.v3.dll": {},
+          "lib/net8.0/PDFClown.dll": {}
         }
       },
       "log4net/2.0.8": {
@@ -841,12 +846,12 @@
           "System.Formats.Asn1": "8.0.1"
         },
         "compile": {
-          "lib/netstandard2.1/MailKit.dll": {
+          "lib/net8.0/MailKit.dll": {
             "related": ".dll.config;.pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/MailKit.dll": {
+          "lib/net8.0/MailKit.dll": {
             "related": ".dll.config;.pdb;.xml"
           }
         }
@@ -966,7 +971,565 @@
         }
       },
       "Microsoft.AspNetCore.App.Runtime.linux-x64/8.0.0": {
-        "type": "package"
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Antiforgery.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Authentication.Abstractions.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Authentication.BearerToken.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Authentication.Cookies.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Authentication.Core.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Authentication.OAuth.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Authentication.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Authorization.Policy.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Authorization.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Components.Authorization.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Components.Endpoints.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Components.Forms.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Components.Server.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Components.Web.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Components.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Connections.Abstractions.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.CookiePolicy.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Cors.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.DataProtection.Abstractions.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.DataProtection.Extensions.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.DataProtection.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Diagnostics.Abstractions.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Diagnostics.HealthChecks.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Diagnostics.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.HostFiltering.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Hosting.Abstractions.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Hosting.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Html.Abstractions.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Http.Abstractions.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Http.Connections.Common.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Http.Connections.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Http.Extensions.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Http.Features.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Http.Results.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Http.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.HttpLogging.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.HttpOverrides.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.HttpsPolicy.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Identity.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Localization.Routing.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Localization.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Metadata.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Mvc.Abstractions.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Mvc.ApiExplorer.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Mvc.Core.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Mvc.Cors.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Mvc.DataAnnotations.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Mvc.Formatters.Json.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Mvc.Formatters.Xml.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Mvc.Localization.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Mvc.Razor.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Mvc.RazorPages.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Mvc.TagHelpers.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Mvc.ViewFeatures.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Mvc.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.OutputCaching.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.RateLimiting.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Razor.Runtime.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Razor.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.RequestDecompression.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.ResponseCaching.Abstractions.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.ResponseCaching.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.ResponseCompression.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Rewrite.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Routing.Abstractions.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Routing.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Server.HttpSys.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Server.IIS.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Server.IISIntegration.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Server.Kestrel.Core.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Server.Kestrel.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.Session.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.SignalR.Common.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.SignalR.Core.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.SignalR.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.StaticFiles.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.WebSockets.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.WebUtilities.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.AspNetCore.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.Caching.Abstractions.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.Caching.Memory.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.Configuration.Binder.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.Configuration.CommandLine.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.Configuration.FileExtensions.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.Configuration.Ini.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.Configuration.Json.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.Configuration.KeyPerFile.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.Configuration.UserSecrets.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.Configuration.Xml.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.Configuration.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.Diagnostics.Abstractions.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.Diagnostics.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.Features.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.FileProviders.Composite.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.FileProviders.Embedded.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.FileProviders.Physical.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.FileSystemGlobbing.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.Hosting.Abstractions.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.Hosting.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.Http.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.Identity.Core.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.Identity.Stores.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.Localization.Abstractions.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.Localization.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.Logging.Configuration.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.Logging.Console.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.Logging.Debug.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.Logging.EventLog.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.Logging.EventSource.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.Logging.TraceSource.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.Logging.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.ObjectPool.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.Options.DataAnnotations.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.Options.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.Primitives.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Extensions.WebEncoders.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.JSInterop.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/Microsoft.Net.Http.Headers.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/System.Diagnostics.EventLog.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/System.IO.Pipelines.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/System.Security.Cryptography.Pkcs.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/System.Security.Cryptography.Xml.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/lib/net8.0/System.Threading.RateLimiting.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          }
+        }
       },
       "Microsoft.AspNetCore.App.Runtime.win-x86/3.0.0": {
         "type": "package",
@@ -1950,71 +2513,72 @@
           }
         }
       },
-      "Microsoft.Extensions.Configuration/3.1.9": {
+      "Microsoft.Extensions.Configuration/5.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "3.1.9"
+          "Microsoft.Extensions.Configuration.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Primitives": "5.0.0"
         },
         "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {
             "related": ".xml"
           }
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/3.1.9": {
+      "Microsoft.Extensions.Configuration.Abstractions/5.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "3.1.9"
+          "Microsoft.Extensions.Primitives": "5.0.0"
         },
         "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
             "related": ".xml"
           }
         }
       },
-      "Microsoft.Extensions.Configuration.Binder/3.1.9": {
+      "Microsoft.Extensions.Configuration.Binder/5.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "3.1.9"
+          "Microsoft.Extensions.Configuration.Abstractions": "5.0.0"
         },
         "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll": {
             "related": ".xml"
           }
         }
       },
-      "Microsoft.Extensions.DependencyInjection/3.1.9": {
+      "Microsoft.Extensions.DependencyInjection/5.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.9"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
         },
         "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll": {
+          "lib/net5.0/Microsoft.Extensions.DependencyInjection.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll": {
+          "lib/net5.0/Microsoft.Extensions.DependencyInjection.dll": {
             "related": ".xml"
           }
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.9": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -2124,12 +2688,12 @@
       "Microsoft.Extensions.ObjectPool/5.0.10": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.dll": {
+          "lib/net5.0/Microsoft.Extensions.ObjectPool.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.dll": {
+          "lib/net5.0/Microsoft.Extensions.ObjectPool.dll": {
             "related": ".xml"
           }
         }
@@ -2170,15 +2734,15 @@
           }
         }
       },
-      "Microsoft.Extensions.Primitives/3.1.9": {
+      "Microsoft.Extensions.Primitives/5.0.0": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {
             "related": ".xml"
           }
         }
@@ -2186,12 +2750,12 @@
       "Microsoft.IdentityModel.Abstractions/6.35.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Microsoft.IdentityModel.Abstractions.dll": {
+          "lib/net6.0/Microsoft.IdentityModel.Abstractions.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.IdentityModel.Abstractions.dll": {
+          "lib/net6.0/Microsoft.IdentityModel.Abstractions.dll": {
             "related": ".xml"
           }
         }
@@ -2205,12 +2769,12 @@
           "System.Text.Json": "4.7.2"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
+          "lib/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
+          "lib/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
             "related": ".xml"
           }
         }
@@ -2221,12 +2785,12 @@
           "Microsoft.IdentityModel.Abstractions": "6.35.0"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.IdentityModel.Logging.dll": {
+          "lib/net6.0/Microsoft.IdentityModel.Logging.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.IdentityModel.Logging.dll": {
+          "lib/net6.0/Microsoft.IdentityModel.Logging.dll": {
             "related": ".xml"
           }
         }
@@ -2236,18 +2800,15 @@
         "dependencies": {
           "Microsoft.CSharp": "4.5.0",
           "Microsoft.IdentityModel.Logging": "6.35.0",
-          "System.Security.Cryptography.Cng": "4.5.0",
-          "System.Text.Encoding": "4.3.0",
-          "System.Text.Encodings.Web": "4.7.2",
-          "System.Text.Json": "4.7.2"
+          "System.Security.Cryptography.Cng": "4.5.0"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll": {
+          "lib/net6.0/Microsoft.IdentityModel.Tokens.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll": {
+          "lib/net6.0/Microsoft.IdentityModel.Tokens.dll": {
             "related": ".xml"
           }
         }
@@ -2482,7 +3043,7 @@
           "build/Microsoft.NetCore.Analyzers.props": {}
         }
       },
-      "Microsoft.NETCore.Platforms/3.0.0": {
+      "Microsoft.NETCore.Platforms/2.0.0": {
         "type": "package",
         "compile": {
           "lib/netstandard1.0/_._": {}
@@ -3183,24 +3744,42 @@
           }
         }
       },
+      "Microsoft.Win32.SystemEvents/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
       "MimeKit/4.7.1": {
         "type": "package",
         "dependencies": {
           "BouncyCastle.Cryptography": "2.4.0",
-          "System.Buffers": "4.5.1",
           "System.Formats.Asn1": "8.0.1",
-          "System.Memory": "4.5.5",
-          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
-          "System.Security.Cryptography.Pkcs": "8.0.0",
-          "System.Text.Encoding.CodePages": "8.0.0"
+          "System.Security.Cryptography.Pkcs": "8.0.0"
         },
         "compile": {
-          "lib/netstandard2.1/MimeKit.dll": {
+          "lib/net8.0/MimeKit.dll": {
             "related": ".dll.config;.pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/MimeKit.dll": {
+          "lib/net8.0/MimeKit.dll": {
             "related": ".dll.config;.pdb;.xml"
           }
         }
@@ -3248,12 +3827,12 @@
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
         }
@@ -3364,12 +3943,12 @@
           "System.Security.Cryptography.Pkcs": "5.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/NuGet.Packaging.dll": {
+          "lib/net5.0/NuGet.Packaging.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/NuGet.Packaging.dll": {
+          "lib/net5.0/NuGet.Packaging.dll": {
             "related": ".xml"
           }
         }
@@ -3813,7 +4392,7 @@
           "lib/netstandard1.3/System.ComponentModel.dll": {}
         }
       },
-      "System.ComponentModel.Annotations/4.7.0": {
+      "System.ComponentModel.Annotations/5.0.0": {
         "type": "package",
         "compile": {
           "ref/netstandard2.1/System.ComponentModel.Annotations.dll": {
@@ -3971,20 +4550,21 @@
       "System.Configuration.ConfigurationManager/8.0.0": {
         "type": "package",
         "dependencies": {
+          "System.Diagnostics.EventLog": "8.0.0",
           "System.Security.Cryptography.ProtectedData": "8.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
+          "lib/net8.0/System.Configuration.ConfigurationManager.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
+          "lib/net8.0/System.Configuration.ConfigurationManager.dll": {
             "related": ".xml"
           }
         },
         "build": {
-          "buildTransitive/netcoreapp2.0/System.Configuration.ConfigurationManager.targets": {}
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "System.Console/4.3.0": {
@@ -4130,25 +4710,27 @@
           }
         }
       },
-      "System.Diagnostics.EventLog/4.6.0": {
+      "System.Diagnostics.EventLog/8.0.0": {
         "type": "package",
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "3.0.0",
-          "Microsoft.Win32.Registry": "4.6.0",
-          "System.Security.Principal.Windows": "4.6.0"
-        },
         "compile": {
-          "ref/netstandard2.0/System.Diagnostics.EventLog.dll": {
+          "lib/net8.0/System.Diagnostics.EventLog.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Diagnostics.EventLog.dll": {
+          "lib/net8.0/System.Diagnostics.EventLog.dll": {
             "related": ".xml"
           }
         },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
         "runtimeTargets": {
-          "runtimes/win/lib/netcoreapp2.0/System.Diagnostics.EventLog.dll": {
+          "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.Messages.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          },
+          "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -4372,18 +4954,27 @@
       },
       "System.Drawing.Common/7.0.0": {
         "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "7.0.0"
+        },
         "compile": {
-          "lib/netstandard2.0/System.Drawing.Common.dll": {
+          "lib/net7.0/System.Drawing.Common.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Drawing.Common.dll": {
+          "lib/net7.0/System.Drawing.Common.dll": {
             "related": ".xml"
           }
         },
         "build": {
-          "buildTransitive/netcoreapp2.0/System.Drawing.Common.targets": {}
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net7.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
         }
       },
       "System.Dynamic.Runtime/4.3.0": {
@@ -4415,22 +5006,18 @@
       },
       "System.Formats.Asn1/8.0.1": {
         "type": "package",
-        "dependencies": {
-          "System.Buffers": "4.5.1",
-          "System.Memory": "4.5.5"
-        },
         "compile": {
-          "lib/netstandard2.0/System.Formats.Asn1.dll": {
+          "lib/net8.0/System.Formats.Asn1.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Formats.Asn1.dll": {
+          "lib/net8.0/System.Formats.Asn1.dll": {
             "related": ".xml"
           }
         },
         "build": {
-          "buildTransitive/netcoreapp2.0/System.Formats.Asn1.targets": {}
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "System.Globalization/4.3.0": {
@@ -4493,12 +5080,12 @@
           "Microsoft.IdentityModel.Tokens": "6.35.0"
         },
         "compile": {
-          "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll": {
+          "lib/net6.0/System.IdentityModel.Tokens.Jwt.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll": {
+          "lib/net6.0/System.IdentityModel.Tokens.Jwt.dll": {
             "related": ".xml"
           }
         }
@@ -4677,15 +5264,6 @@
         },
         "runtime": {
           "lib/netstandard1.6/System.Linq.dll": {}
-        }
-      },
-      "System.Linq.Dynamic/1.0.8": {
-        "type": "package",
-        "compile": {
-          "lib/net40/System.Linq.Dynamic.dll": {}
-        },
-        "runtime": {
-          "lib/net40/System.Linq.Dynamic.dll": {}
         }
       },
       "System.Linq.Expressions/4.3.0": {
@@ -5307,28 +5885,34 @@
           "System.Configuration.ConfigurationManager": "8.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/System.Runtime.Caching.dll": {
+          "lib/net8.0/System.Runtime.Caching.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Runtime.Caching.dll": {
+          "lib/net8.0/System.Runtime.Caching.dll": {
             "related": ".xml"
           }
         },
         "build": {
-          "buildTransitive/netcoreapp2.0/System.Runtime.Caching.targets": {}
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/System.Runtime.Caching.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
             "related": ".xml"
           }
         },
@@ -5503,16 +6087,13 @@
       },
       "System.Security.AccessControl/6.0.0": {
         "type": "package",
-        "dependencies": {
-          "System.Security.Principal.Windows": "5.0.0"
-        },
         "compile": {
-          "lib/netstandard2.0/System.Security.AccessControl.dll": {
+          "lib/net6.0/System.Security.AccessControl.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Security.AccessControl.dll": {
+          "lib/net6.0/System.Security.AccessControl.dll": {
             "related": ".xml"
           }
         },
@@ -5520,7 +6101,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         },
         "runtimeTargets": {
-          "runtimes/win/lib/netstandard2.0/System.Security.AccessControl.dll": {
+          "runtimes/win/lib/net6.0/System.Security.AccessControl.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -5680,21 +6261,26 @@
       "System.Security.Cryptography.Pkcs/8.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Formats.Asn1": "8.0.0",
-          "System.Security.Cryptography.Cng": "5.0.0"
+          "System.Formats.Asn1": "8.0.0"
         },
         "compile": {
-          "lib/netstandard2.1/System.Security.Cryptography.Pkcs.dll": {
+          "lib/net8.0/System.Security.Cryptography.Pkcs.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/System.Security.Cryptography.Pkcs.dll": {
+          "lib/net8.0/System.Security.Cryptography.Pkcs.dll": {
             "related": ".xml"
           }
         },
         "build": {
-          "buildTransitive/netcoreapp2.0/System.Security.Cryptography.Pkcs.targets": {}
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
         }
       },
       "System.Security.Cryptography.Primitives/4.3.0": {
@@ -5717,21 +6303,18 @@
       },
       "System.Security.Cryptography.ProtectedData/8.0.0": {
         "type": "package",
-        "dependencies": {
-          "System.Memory": "4.5.5"
-        },
         "compile": {
-          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+          "lib/net8.0/System.Security.Cryptography.ProtectedData.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+          "lib/net8.0/System.Security.Cryptography.ProtectedData.dll": {
             "related": ".xml"
           }
         },
         "build": {
-          "buildTransitive/netcoreapp2.0/System.Security.Cryptography.ProtectedData.targets": {}
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "System.Security.Cryptography.X509Certificates/4.3.0": {
@@ -5782,17 +6365,16 @@
       "System.Security.Cryptography.Xml/6.0.1": {
         "type": "package",
         "dependencies": {
-          "System.Memory": "4.5.4",
           "System.Security.AccessControl": "6.0.0",
           "System.Security.Cryptography.Pkcs": "6.0.1"
         },
         "compile": {
-          "lib/netstandard2.0/System.Security.Cryptography.Xml.dll": {
+          "lib/net6.0/System.Security.Cryptography.Xml.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Security.Cryptography.Xml.dll": {
+          "lib/net6.0/System.Security.Cryptography.Xml.dll": {
             "related": ".xml"
           }
         },
@@ -5886,10 +6468,10 @@
           "System.ServiceModel.Primitives": "4.10.3"
         },
         "compile": {
-          "ref/netstandard2.0/System.ServiceModel.Duplex.dll": {}
+          "ref/net6.0/System.ServiceModel.Duplex.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.ServiceModel.Duplex.dll": {
+          "lib/net6.0/System.ServiceModel.Duplex.dll": {
             "related": ".pdb"
           }
         }
@@ -5901,10 +6483,10 @@
           "System.ServiceModel.Primitives": "4.10.3"
         },
         "compile": {
-          "ref/netstandard2.0/System.ServiceModel.Http.dll": {}
+          "ref/net6.0/System.ServiceModel.Http.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.ServiceModel.Http.dll": {
+          "lib/net6.0/System.ServiceModel.Http.dll": {
             "related": ".pdb"
           }
         }
@@ -5916,10 +6498,10 @@
           "System.ServiceModel.Primitives": "4.10.3"
         },
         "compile": {
-          "ref/netstandard2.0/System.ServiceModel.NetTcp.dll": {}
+          "ref/net6.0/System.ServiceModel.NetTcp.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.ServiceModel.NetTcp.dll": {
+          "lib/net6.0/System.ServiceModel.NetTcp.dll": {
             "related": ".pdb"
           }
         }
@@ -5930,14 +6512,14 @@
           "System.Private.ServiceModel": "4.10.3"
         },
         "compile": {
-          "ref/netstandard2.0/System.ServiceModel.Primitives.dll": {},
-          "ref/netstandard2.0/System.ServiceModel.dll": {}
+          "ref/net6.0/System.ServiceModel.Primitives.dll": {},
+          "ref/net6.0/System.ServiceModel.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.ServiceModel.Primitives.dll": {
+          "lib/net6.0/System.ServiceModel.Primitives.dll": {
             "related": ".pdb"
           },
-          "lib/netstandard2.0/System.ServiceModel.dll": {
+          "lib/net6.0/System.ServiceModel.dll": {
             "related": ".Primitives.pdb"
           }
         }
@@ -5949,10 +6531,10 @@
           "System.ServiceModel.Primitives": "4.10.3"
         },
         "compile": {
-          "ref/netstandard2.0/System.ServiceModel.Security.dll": {}
+          "ref/net6.0/System.ServiceModel.Security.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.ServiceModel.Security.dll": {
+          "lib/net6.0/System.ServiceModel.Security.dll": {
             "related": ".pdb"
           }
         }
@@ -5989,12 +6571,12 @@
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
-          "lib/netcoreapp3.1/System.Text.Encoding.CodePages.dll": {
+          "lib/net6.0/System.Text.Encoding.CodePages.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netcoreapp3.1/System.Text.Encoding.CodePages.dll": {
+          "lib/net6.0/System.Text.Encoding.CodePages.dll": {
             "related": ".xml"
           }
         },
@@ -6002,7 +6584,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         },
         "runtimeTargets": {
-          "runtimes/win/lib/netcoreapp3.1/System.Text.Encoding.CodePages.dll": {
+          "runtimes/win/lib/net6.0/System.Text.Encoding.CodePages.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -6816,14 +7398,14 @@
         "lib/netstandard2.0/DocumentFormat.OpenXml.xml"
       ]
     },
-    "DotNetNuke.Core/7.4.0.353": {
-      "sha512": "tT/EF5omiP2xNBW5xMyqLYqaI+VzFl+EYPwfKkgqmcpLdEzEf0z3OWa32bTt6VAVeaK/TWwIJE5+K2CauMV+8g==",
+    "DotNetNuke.Core/7.4.1.280": {
+      "sha512": "niWZD2Vl+si7UAD4BkD0fM1At6gwtjP6yRX2o4Lhj+TPtFGirV+f2ufUG6rnvco34zHmliu7wmYnleJIexjDiQ==",
       "type": "package",
-      "path": "dotnetnuke.core/7.4.0.353",
+      "path": "dotnetnuke.core/7.4.1.280",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "dotnetnuke.core.7.4.0.353.nupkg.sha512",
+        "dotnetnuke.core.7.4.1.280.nupkg.sha512",
         "dotnetnuke.core.nuspec",
         "lib/net40/DotNetNuke.dll",
         "lib/net40/Microsoft.ApplicationBlocks.Data.dll"
@@ -8466,86 +9048,108 @@
         "microsoft.extensions.caching.memory.nuspec"
       ]
     },
-    "Microsoft.Extensions.Configuration/3.1.9": {
-      "sha512": "lqdkOGNeTMKG981Q7yWGlRiFbIlsRwTlMMiybT+WOzUCFBS/wc25tZgh7Wm/uRoBbWefgvokzmnea7ZjmFedmA==",
+    "Microsoft.Extensions.Configuration/5.0.0": {
+      "sha512": "LN322qEKHjuVEhhXueTUe7RNePooZmS8aGid5aK2woX3NPjSnONFyKUc6+JknOS6ce6h2tCLfKPTBXE3mN/6Ag==",
       "type": "package",
-      "path": "microsoft.extensions.configuration/3.1.9",
+      "path": "microsoft.extensions.configuration/5.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.xml",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Configuration.dll",
+        "lib/net461/Microsoft.Extensions.Configuration.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.xml",
-        "microsoft.extensions.configuration.3.1.9.nupkg.sha512",
-        "microsoft.extensions.configuration.nuspec"
+        "microsoft.extensions.configuration.5.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
-    "Microsoft.Extensions.Configuration.Abstractions/3.1.9": {
-      "sha512": "vOJxPKczaHpXeZFrxARxYwsEulhEouXc5aZGgMdkhV/iEXX9/pfjqKk76rTG+4CsJjHV+G/4eMhvOIaQMHENNA==",
+    "Microsoft.Extensions.Configuration.Abstractions/5.0.0": {
+      "sha512": "ETjSBHMp3OAZ4HxGQYpwyGsD8Sw5FegQXphi0rpoGMT74S4+I2mm7XJEswwn59XAaKOzC15oDSOWEE8SzDCd6Q==",
       "type": "package",
-      "path": "microsoft.extensions.configuration.abstractions/3.1.9",
+      "path": "microsoft.extensions.configuration.abstractions/5.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.Configuration.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml",
-        "microsoft.extensions.configuration.abstractions.3.1.9.nupkg.sha512",
-        "microsoft.extensions.configuration.abstractions.nuspec"
+        "microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.abstractions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
-    "Microsoft.Extensions.Configuration.Binder/3.1.9": {
-      "sha512": "BG6HcT7tARYakftqfQu+cLksgIWG1NdxMY+igI12hdZrUK+WjS973NiRyuao/U9yyTeM9NPwRnC61hCmG3G3jg==",
+    "Microsoft.Extensions.Configuration.Binder/5.0.0": {
+      "sha512": "Of1Irt1+NzWO+yEYkuDh5TpT4On7LKl98Q9iLqCdOZps6XXEWDj3AKtmyvzJPVXZe4apmkJJIiDL7rR1yC+hjQ==",
       "type": "package",
-      "path": "microsoft.extensions.configuration.binder/3.1.9",
+      "path": "microsoft.extensions.configuration.binder/5.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.xml",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Configuration.Binder.dll",
+        "lib/net461/Microsoft.Extensions.Configuration.Binder.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.xml",
-        "microsoft.extensions.configuration.binder.3.1.9.nupkg.sha512",
-        "microsoft.extensions.configuration.binder.nuspec"
+        "microsoft.extensions.configuration.binder.5.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.binder.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection/3.1.9": {
-      "sha512": "ORqfrAACcvTInie1oGola5uky344/PiNfgayTPuZWV4WnSfIQZJQm/ZLpGshJE3h7TqwYaYElGazK/yaM2bFLA==",
+    "Microsoft.Extensions.DependencyInjection/5.0.0": {
+      "sha512": "Rc2kb/p3Ze6cP6rhFC3PJRdWGbLvSHZc0ev7YlyeU6FmHciDMLrhoVoTUEzKPhN5ZjFgKF1Cf5fOz8mCMIkvpA==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection/3.1.9",
+      "path": "microsoft.extensions.dependencyinjection/5.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
         "lib/net461/Microsoft.Extensions.DependencyInjection.dll",
         "lib/net461/Microsoft.Extensions.DependencyInjection.xml",
-        "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll",
-        "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/net5.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net5.0/Microsoft.Extensions.DependencyInjection.xml",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
-        "microsoft.extensions.dependencyinjection.3.1.9.nupkg.sha512",
-        "microsoft.extensions.dependencyinjection.nuspec"
+        "microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.9": {
-      "sha512": "8PkcaPwiTPOhqshoY4+rQUbz86X6YpLDLUqXOezh7L2A3pgpBmeBBByYIffofBlvQxDdQ0zB2DkWjbZWyCxRWg==",
+    "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {
+      "sha512": "ORj7Zh81gC69TyvmcUm9tSzytcy8AVousi+IVRAI8nLieQjOFryRusSFh7+aLk16FN9pQNqJAiMd7BTKINK0kA==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.9",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/5.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "microsoft.extensions.dependencyinjection.abstractions.3.1.9.nupkg.sha512",
-        "microsoft.extensions.dependencyinjection.abstractions.nuspec"
+        "microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "Microsoft.Extensions.FileProviders.Abstractions/3.1.8": {
@@ -8691,20 +9295,26 @@
         "microsoft.extensions.options.configurationextensions.nuspec"
       ]
     },
-    "Microsoft.Extensions.Primitives/3.1.9": {
-      "sha512": "IrHecH0eGG7/XoeEtv++oLg/sJHRNyeCqlA9RhAo6ig4GpOTjtDr32sBMYuuLtUq8ALahneWkrOzoBAwJ4L4iA==",
+    "Microsoft.Extensions.Primitives/5.0.0": {
+      "sha512": "cI/VWn9G1fghXrNDagX9nYaaB/nokkZn0HYAawGaELQrl8InSezfe9OnfPZLcJq3esXxygh3hkq2c3qoV3SDyQ==",
       "type": "package",
-      "path": "microsoft.extensions.primitives/3.1.9",
+      "path": "microsoft.extensions.primitives/5.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.xml",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Primitives.dll",
+        "lib/net461/Microsoft.Extensions.Primitives.xml",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
-        "microsoft.extensions.primitives.3.1.9.nupkg.sha512",
-        "microsoft.extensions.primitives.nuspec"
+        "microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "Microsoft.IdentityModel.Abstractions/6.35.0": {
@@ -8931,17 +9541,17 @@
         "tools/uninstall.ps1"
       ]
     },
-    "Microsoft.NETCore.Platforms/3.0.0": {
-      "sha512": "TsETIgVJb/AKoYfSP+iCxkuly5d3inZjTdx/ItZLk2CxY85v8083OBS3uai84kK3/baLnS5/b5XGs6zR7SuuHQ==",
+    "Microsoft.NETCore.Platforms/2.0.0": {
+      "sha512": "VdLJOCXhZaEMY7Hm2GKiULmn7IEPFE4XC5LPSfBVCUIA8YLZVh846gtfBJalsPQF2PlzdD7ecX7DZEulJ402ZQ==",
       "type": "package",
-      "path": "microsoft.netcore.platforms/3.0.0",
+      "path": "microsoft.netcore.platforms/2.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/netstandard1.0/_._",
-        "microsoft.netcore.platforms.3.0.0.nupkg.sha512",
+        "microsoft.netcore.platforms.2.0.0.nupkg.sha512",
         "microsoft.netcore.platforms.nuspec",
         "runtime.json",
         "useSharedDesignerContext.txt",
@@ -9739,6 +10349,37 @@
         "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.AccessControl.dll",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Microsoft.Win32.SystemEvents/7.0.0": {
+      "sha512": "2nXPrhdAyAzir0gLl8Yy8S5Mnm/uBSQQA7jEsILOS1MTyS7DbmV1NgViMtvV1sfCD1ebITpNwb1NIinKeJgUVQ==",
+      "type": "package",
+      "path": "microsoft.win32.systemevents/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Win32.SystemEvents.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Win32.SystemEvents.targets",
+        "lib/net462/Microsoft.Win32.SystemEvents.dll",
+        "lib/net462/Microsoft.Win32.SystemEvents.xml",
+        "lib/net6.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net6.0/Microsoft.Win32.SystemEvents.xml",
+        "lib/net7.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net7.0/Microsoft.Win32.SystemEvents.xml",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
+        "microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+        "microsoft.win32.systemevents.nuspec",
+        "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.xml",
+        "useSharedDesignerContext.txt"
       ]
     },
     "MimeKit/4.7.1": {
@@ -11903,13 +12544,14 @@
         "system.componentmodel.nuspec"
       ]
     },
-    "System.ComponentModel.Annotations/4.7.0": {
-      "sha512": "0YFqjhp/mYkDGpU0Ye1GjE53HMp9UVfGN7seGpAMttAC0C40v5gw598jCgpbBLMmCo0E5YRLBv5Z2doypO49ZQ==",
+    "System.ComponentModel.Annotations/5.0.0": {
+      "sha512": "dMkqfy2el8A8/I76n2Hi1oBFEbG1SfxD2l5nhwXV3XjlnOmwxJlQbYpJH4W51odnU9sARCSAgv7S3CyAFMkpYg==",
       "type": "package",
-      "path": "system.componentmodel.annotations/4.7.0",
+      "path": "system.componentmodel.annotations/5.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/MonoAndroid10/_._",
@@ -11986,7 +12628,7 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
-        "system.componentmodel.annotations.4.7.0.nupkg.sha512",
+        "system.componentmodel.annotations.5.0.0.nupkg.sha512",
         "system.componentmodel.annotations.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -12511,31 +13153,43 @@
         "version.txt"
       ]
     },
-    "System.Diagnostics.EventLog/4.6.0": {
-      "sha512": "JeRaXoqKLUsHrzbJ5dxElVfCCO0rILRlHHLlvqX5YAzrTewohHNU5wxJ928oKVA8TwvsayYBOIiV7Av+w4cSMA==",
+    "System.Diagnostics.EventLog/8.0.0": {
+      "sha512": "fdYxcRjQqTTacKId/2IECojlDSFvp7LP5N78+0z/xH7v/Tuw5ZAxu23Y6PTCRinqyu2ePx+Gn1098NC6jM6d+A==",
       "type": "package",
-      "path": "system.diagnostics.eventlog/4.6.0",
+      "path": "system.diagnostics.eventlog/8.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
         "LICENSE.TXT",
+        "PACKAGE.md",
         "THIRD-PARTY-NOTICES.TXT",
-        "lib/net461/System.Diagnostics.EventLog.dll",
-        "lib/net461/System.Diagnostics.EventLog.xml",
+        "buildTransitive/net461/System.Diagnostics.EventLog.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Diagnostics.EventLog.targets",
+        "lib/net462/System.Diagnostics.EventLog.dll",
+        "lib/net462/System.Diagnostics.EventLog.xml",
+        "lib/net6.0/System.Diagnostics.EventLog.dll",
+        "lib/net6.0/System.Diagnostics.EventLog.xml",
+        "lib/net7.0/System.Diagnostics.EventLog.dll",
+        "lib/net7.0/System.Diagnostics.EventLog.xml",
+        "lib/net8.0/System.Diagnostics.EventLog.dll",
+        "lib/net8.0/System.Diagnostics.EventLog.xml",
         "lib/netstandard2.0/System.Diagnostics.EventLog.dll",
         "lib/netstandard2.0/System.Diagnostics.EventLog.xml",
-        "ref/net461/System.Diagnostics.EventLog.dll",
-        "ref/net461/System.Diagnostics.EventLog.xml",
-        "ref/net472/System.Diagnostics.EventLog.dll",
-        "ref/net472/System.Diagnostics.EventLog.xml",
-        "ref/netstandard2.0/System.Diagnostics.EventLog.dll",
-        "ref/netstandard2.0/System.Diagnostics.EventLog.xml",
-        "runtimes/win/lib/netcoreapp2.0/System.Diagnostics.EventLog.dll",
-        "runtimes/win/lib/netcoreapp2.0/System.Diagnostics.EventLog.xml",
-        "system.diagnostics.eventlog.4.6.0.nupkg.sha512",
+        "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll",
+        "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll",
+        "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.xml",
+        "runtimes/win/lib/net7.0/System.Diagnostics.EventLog.Messages.dll",
+        "runtimes/win/lib/net7.0/System.Diagnostics.EventLog.dll",
+        "runtimes/win/lib/net7.0/System.Diagnostics.EventLog.xml",
+        "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.Messages.dll",
+        "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll",
+        "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.xml",
+        "system.diagnostics.eventlog.8.0.0.nupkg.sha512",
         "system.diagnostics.eventlog.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
+        "useSharedDesignerContext.txt"
       ]
     },
     "System.Diagnostics.FileVersionInfo/4.3.0": {
@@ -13643,19 +14297,6 @@
         "ref/xamarinwatchos10/_._",
         "system.linq.4.3.0.nupkg.sha512",
         "system.linq.nuspec"
-      ]
-    },
-    "System.Linq.Dynamic/1.0.8": {
-      "sha512": "nh+3I/wcZcyQ4p8DKMhy/PH4sGKONrrGlx+eqpqrRTDHe6gyDTF5nK0AIXitDuzvtNTOkvpJWvPd0xdzEmlQjA==",
-      "type": "package",
-      "path": "system.linq.dynamic/1.0.8",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "NuGet.exe",
-        "lib/net40/System.Linq.Dynamic.dll",
-        "system.linq.dynamic.1.0.8.nupkg.sha512",
-        "system.linq.dynamic.nuspec"
       ]
     },
     "System.Linq.Expressions/4.3.0": {
@@ -17970,7 +18611,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
+    "net8.0": [
       "Azure.Storage.Queues >= 12.7.0",
       "EntityFramework >= 6.2.0",
       "FsPickler.Json >= 5.3.2",
@@ -17992,13 +18633,12 @@
       "System.DirectoryServices >= 4.5.0",
       "System.DirectoryServices.AccountManagement >= 4.5.0",
       "System.DirectoryServices.Protocols >= 4.5.0",
-      "System.Linq.Dynamic >= 1.0.8",
       "System.Management.Automation >= 6.1.0",
       "System.Runtime.Serialization.Formatters >= 4.3.0",
       "WindowsAzure.Storage >= 9.3.3",
       "Xamarin.Forms >= 4.5.0.617",
       "csla >= 5.5.4",
-      "dotnetnuke.core >= 7.4.0",
+      "dotnetnuke.core >= 7.4.1.280",
       "fastJSON >= 2.4.0.4",
       "kentico.xperience.libraries >= 13.0.173",
       "log4net >= 2.0.8",
@@ -18012,29 +18652,49 @@
     ]
   },
   "packageFolders": {
-    "/Users/pawel/.nuget/packages/": {}
+    "C:\\Users\\anok\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages": {},
+    "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/pawel/demo/tmp/dotnet-goof/dotNet-goof.csproj",
+      "projectUniqueName": "C:\\Users\\anok\\source\\repos\\dotnet-goof-anok\\dotNet-goof.csproj",
       "projectName": "dotNet-goof",
-      "projectPath": "/Users/pawel/demo/tmp/dotnet-goof/dotNet-goof.csproj",
-      "packagesPath": "/Users/pawel/.nuget/packages/",
-      "outputPath": "/Users/pawel/demo/tmp/dotnet-goof/obj/",
+      "projectPath": "C:\\Users\\anok\\source\\repos\\dotnet-goof-anok\\dotNet-goof.csproj",
+      "packagesPath": "C:\\Users\\anok\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\anok\\source\\repos\\dotnet-goof-anok\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
+        "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "/Users/pawel/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\anok\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net8.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+        "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://maven.tools.nykredit.it/nexus/repository/itcm_nuget/": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {}
         }
       },
@@ -18051,8 +18711,8 @@
       "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
-      "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "dependencies": {
           "Azure.Storage.Queues": {
             "target": "Package",
@@ -18139,10 +18799,6 @@
             "target": "Package",
             "version": "[4.5.0, )"
           },
-          "System.Linq.Dynamic": {
-            "target": "Package",
-            "version": "[1.0.8, )"
-          },
           "System.Management.Automation": {
             "target": "Package",
             "version": "[6.1.0, )"
@@ -18165,7 +18821,7 @@
           },
           "dotnetnuke.core": {
             "target": "Package",
-            "version": "[7.4.0, )"
+            "version": "[7.4.1.280, )"
           },
           "fastJSON": {
             "target": "Package",
@@ -18219,20 +18875,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.10, 3.1.10]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.osx-x64",
-            "version": "[3.1.32, 3.1.32]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[3.1.0, 3.1.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -18241,37 +18883,27 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.301/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
   "logs": [
     {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "dotNet-goof depends on DotNetNuke.Core (>= 7.4.0) but DotNetNuke.Core 7.4.0 was not found. DotNetNuke.Core 7.4.0.353 was resolved instead.",
-      "libraryId": "DotNetNuke.Core",
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package opcfoundation.netstandard.opc.ua4. No packages exist with this id in source(s): C:\\Program Files\\dotnet\\library-packs, DevExpress 22.1 Local, DevExpress 22.2 Local, Microsoft Visual Studio Offline Packages, Nexus, nuget.org",
+      "libraryId": "opcfoundation.netstandard.opc.ua4",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
       "code": "NU1102",
       "level": "Error",
-      "message": "Unable to find package youtubedlsharp with version (>= 1.2.2)\n  - Found 19 version(s) in nuget.org [ Nearest version: 1.1.2 ]",
+      "message": "Unable to find package youtubedlsharp with version (>= 1.2.2)\r\n  - Found 19 version(s) in nuget.org [ Nearest version: 1.1.2 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages\r\n  - Found 0 version(s) in DevExpress 22.1 Local\r\n  - Found 0 version(s) in DevExpress 22.2 Local\r\n  - Found 0 version(s) in C:\\Program Files\\dotnet\\library-packs\r\n  - Found 0 version(s) in Nexus",
       "libraryId": "youtubedlsharp",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Unable to find package opcfoundation.netstandard.opc.ua4. No packages exist with this id in source(s): nuget.org",
-      "libraryId": "opcfoundation.netstandard.opc.ua4",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
@@ -18281,157 +18913,147 @@
       "message": "Package 'Azure.Storage.Queues' 12.7.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-64x4-9hc6-r2h6",
       "libraryId": "Azure.Storage.Queues",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
       "code": "NU1902",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'DotNetNuke.Core' 7.4.0.353 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-3f7v-qx94-666m",
+      "message": "Package 'DotNetNuke.Core' 7.4.1.280 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-3f7v-qx94-666m",
       "libraryId": "DotNetNuke.Core",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
       "code": "NU1903",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'DotNetNuke.Core' 7.4.0.353 has a known high severity vulnerability, https://github.com/advisories/GHSA-4qf5-7xc2-wqpg",
+      "message": "Package 'DotNetNuke.Core' 7.4.1.280 has a known high severity vulnerability, https://github.com/advisories/GHSA-4qf5-7xc2-wqpg",
       "libraryId": "DotNetNuke.Core",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
       "code": "NU1902",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'DotNetNuke.Core' 7.4.0.353 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-5c66-x4wm-rjfx",
+      "message": "Package 'DotNetNuke.Core' 7.4.1.280 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-5c66-x4wm-rjfx",
       "libraryId": "DotNetNuke.Core",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
       "code": "NU1902",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'DotNetNuke.Core' 7.4.0.353 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-5whq-j5qg-wjvp",
+      "message": "Package 'DotNetNuke.Core' 7.4.1.280 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-5whq-j5qg-wjvp",
       "libraryId": "DotNetNuke.Core",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
       "code": "NU1902",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'DotNetNuke.Core' 7.4.0.353 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-79m3-rvx2-3qq9",
+      "message": "Package 'DotNetNuke.Core' 7.4.1.280 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-79m3-rvx2-3qq9",
       "libraryId": "DotNetNuke.Core",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
       "code": "NU1902",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'DotNetNuke.Core' 7.4.0.353 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-9phr-h5mx-4fp6",
+      "message": "Package 'DotNetNuke.Core' 7.4.1.280 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-9phr-h5mx-4fp6",
       "libraryId": "DotNetNuke.Core",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
       "code": "NU1902",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'DotNetNuke.Core' 7.4.0.353 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-9w72-2f23-57gm",
+      "message": "Package 'DotNetNuke.Core' 7.4.1.280 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-9w72-2f23-57gm",
       "libraryId": "DotNetNuke.Core",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
       "code": "NU1903",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'DotNetNuke.Core' 7.4.0.353 has a known high severity vulnerability, https://github.com/advisories/GHSA-g8j6-m4p7-5rfq",
+      "message": "Package 'DotNetNuke.Core' 7.4.1.280 has a known high severity vulnerability, https://github.com/advisories/GHSA-g8j6-m4p7-5rfq",
       "libraryId": "DotNetNuke.Core",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
       "code": "NU1903",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'DotNetNuke.Core' 7.4.0.353 has a known high severity vulnerability, https://github.com/advisories/GHSA-j3g9-6fx5-gjv7",
+      "message": "Package 'DotNetNuke.Core' 7.4.1.280 has a known high severity vulnerability, https://github.com/advisories/GHSA-j3g9-6fx5-gjv7",
       "libraryId": "DotNetNuke.Core",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
       "code": "NU1902",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'DotNetNuke.Core' 7.4.0.353 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-m4hf-fxcg-cp34",
+      "message": "Package 'DotNetNuke.Core' 7.4.1.280 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-m4hf-fxcg-cp34",
       "libraryId": "DotNetNuke.Core",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
       "code": "NU1902",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'DotNetNuke.Core' 7.4.0.353 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-m6w9-8cxc-jff7",
+      "message": "Package 'DotNetNuke.Core' 7.4.1.280 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-m6w9-8cxc-jff7",
       "libraryId": "DotNetNuke.Core",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
       "code": "NU1902",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'DotNetNuke.Core' 7.4.0.353 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-vjcm-j85r-7p68",
+      "message": "Package 'DotNetNuke.Core' 7.4.1.280 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-vjcm-j85r-7p68",
       "libraryId": "DotNetNuke.Core",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
       "code": "NU1903",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'DotNetNuke.Core' 7.4.0.353 has a known high severity vulnerability, https://github.com/advisories/GHSA-x2rg-fmcv-crq5",
+      "message": "Package 'DotNetNuke.Core' 7.4.1.280 has a known high severity vulnerability, https://github.com/advisories/GHSA-x2rg-fmcv-crq5",
       "libraryId": "DotNetNuke.Core",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1904",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'DotNetNuke.Core' 7.4.0.353 has a known critical severity vulnerability, https://github.com/advisories/GHSA-x8f7-h444-97w4",
-      "libraryId": "DotNetNuke.Core",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
       "code": "NU1903",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'DotNetNuke.Core' 7.4.0.353 has a known high severity vulnerability, https://github.com/advisories/GHSA-xx3h-j3cx-8qfj",
+      "message": "Package 'DotNetNuke.Core' 7.4.1.280 has a known high severity vulnerability, https://github.com/advisories/GHSA-xx3h-j3cx-8qfj",
       "libraryId": "DotNetNuke.Core",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
@@ -18441,7 +19063,7 @@
       "message": "Package 'log4net' 2.0.8 has a known critical severity vulnerability, https://github.com/advisories/GHSA-2cwj-8chv-9pp9",
       "libraryId": "log4net",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
@@ -18451,7 +19073,7 @@
       "message": "Package 'Microsoft.AspNet.Identity.Owin' 2.2.2 has a known high severity vulnerability, https://github.com/advisories/GHSA-25c8-p796-jg6r",
       "libraryId": "Microsoft.AspNet.Identity.Owin",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
@@ -18461,7 +19083,7 @@
       "message": "Package 'Microsoft.AspNetCore.App.Runtime.linux-x64' 8.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-2865-hh9g-w894",
       "libraryId": "Microsoft.AspNetCore.App.Runtime.linux-x64",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
@@ -18471,7 +19093,7 @@
       "message": "Package 'Microsoft.AspNetCore.App.Runtime.linux-x64' 8.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-7vw9-cfwx-9gx9",
       "libraryId": "Microsoft.AspNetCore.App.Runtime.linux-x64",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
@@ -18481,7 +19103,7 @@
       "message": "Package 'Microsoft.AspNetCore.App.Runtime.linux-x64' 8.0.0 has a known critical severity vulnerability, https://github.com/advisories/GHSA-chfc-9w6m-75rf",
       "libraryId": "Microsoft.AspNetCore.App.Runtime.linux-x64",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
@@ -18491,7 +19113,7 @@
       "message": "Package 'Microsoft.AspNetCore.App.Runtime.linux-x64' 8.0.0 has a known critical severity vulnerability, https://github.com/advisories/GHSA-g74q-5xw3-j7q9",
       "libraryId": "Microsoft.AspNetCore.App.Runtime.linux-x64",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
@@ -18501,7 +19123,7 @@
       "message": "Package 'Microsoft.AspNetCore.App.Runtime.linux-x64' 8.0.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-hhc7-x9w4-cw47",
       "libraryId": "Microsoft.AspNetCore.App.Runtime.linux-x64",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
@@ -18511,7 +19133,7 @@
       "message": "Package 'Microsoft.AspNetCore.App.Runtime.win-x86' 3.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-25c8-p796-jg6r",
       "libraryId": "Microsoft.AspNetCore.App.Runtime.win-x86",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
@@ -18521,7 +19143,7 @@
       "message": "Package 'Microsoft.AspNetCore.App.Runtime.win-x86' 3.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-3rq8-h3gj-r5c6",
       "libraryId": "Microsoft.AspNetCore.App.Runtime.win-x86",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
@@ -18531,7 +19153,7 @@
       "message": "Package 'Microsoft.AspNetCore.App.Runtime.win-x86' 3.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-485p-mrj5-8w2v",
       "libraryId": "Microsoft.AspNetCore.App.Runtime.win-x86",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
@@ -18541,7 +19163,7 @@
       "message": "Package 'Microsoft.AspNetCore.App.Runtime.win-x86' 3.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-cw98-9j8w-wxv9",
       "libraryId": "Microsoft.AspNetCore.App.Runtime.win-x86",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
@@ -18551,7 +19173,7 @@
       "message": "Package 'Microsoft.AspNetCore.App.Runtime.win-x86' 3.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-fcg8-mg9g-6hc4",
       "libraryId": "Microsoft.AspNetCore.App.Runtime.win-x86",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
@@ -18561,7 +19183,7 @@
       "message": "Package 'Microsoft.AspNetCore.App.Runtime.win-x86' 3.0.0 has a known critical severity vulnerability, https://github.com/advisories/GHSA-g74q-5xw3-j7q9",
       "libraryId": "Microsoft.AspNetCore.App.Runtime.win-x86",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
@@ -18571,7 +19193,7 @@
       "message": "Package 'NHibernate' 5.2.6 has a known high severity vulnerability, https://github.com/advisories/GHSA-fg4q-ccq8-3r5q",
       "libraryId": "NHibernate",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
@@ -18581,7 +19203,7 @@
       "message": "Package 'System.Data.SqlClient' 4.6.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-8g2p-5pqh-5jmc",
       "libraryId": "System.Data.SqlClient",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
@@ -18591,7 +19213,7 @@
       "message": "Package 'System.Data.SqlClient' 4.6.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-98g6-xh36-x2p7",
       "libraryId": "System.Data.SqlClient",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
@@ -18601,7 +19223,7 @@
       "message": "Package 'System.DirectoryServices.Protocols' 4.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-9cxh-gqpx-qc5m",
       "libraryId": "System.DirectoryServices.Protocols",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
@@ -18611,7 +19233,7 @@
       "message": "Package 'System.Management.Automation' 6.1.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-5frh-8cmj-gc59",
       "libraryId": "System.Management.Automation",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
@@ -18621,164 +19243,136 @@
       "message": "Package 'System.Management.Automation' 6.1.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-62gw-3rmj-wmp2",
       "libraryId": "System.Management.Automation",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'DotNetNuke.Core 7.4.0.353' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "message": "Package 'DotNetNuke.Core 7.4.1.280' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "DotNetNuke.Core",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'EntityFramework 6.2.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "message": "Package 'EntityFramework 6.2.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "EntityFramework",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.Identity.Core 2.2.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.AspNet.Identity.Core 2.2.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.Identity.Core",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.Identity.EntityFramework 2.2.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.AspNet.Identity.EntityFramework 2.2.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.Identity.EntityFramework",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.Identity.Owin 2.2.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.AspNet.Identity.Owin 2.2.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.Identity.Owin",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.WebApi.Core 5.2.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.AspNet.WebApi.Core 5.2.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.WebApi.Core",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.CodeDom.Providers.DotNetCompilerPlatform 2.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.CodeDom.Providers.DotNetCompilerPlatform 2.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.CodeDom.Providers.DotNetCompilerPlatform",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.Owin 3.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.Owin 3.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.Owin",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.Owin.Security 3.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.Owin.Security 3.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.Owin.Security",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.Owin.Security.Cookies 3.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.Owin.Security.Cookies 3.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.Owin.Security.Cookies",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.Owin.Security.OAuth 3.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.Owin.Security.OAuth 3.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.Owin.Security.OAuth",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Owin 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "message": "Package 'Owin 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "Owin",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Linq.Dynamic 1.0.8' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
-      "libraryId": "System.Linq.Dynamic",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     },
     {
       "code": "NU1605",
       "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: System.Data.SqlClient from 4.8.6 to 4.6.1. Reference the package directly from the project to select a different version. \n dotNet-goof -> Kentico.Xperience.Libraries 13.0.173 -> System.Data.SqlClient (>= 4.8.6) \n dotNet-goof -> System.Data.SqlClient (>= 4.6.1)",
+      "message": "Warning As Error: Detected package downgrade: System.Data.SqlClient from 4.8.6 to 4.6.1. Reference the package directly from the project to select a different version. \r\n dotNet-goof -> Kentico.Xperience.Libraries 13.0.173 -> System.Data.SqlClient (>= 4.8.6) \r\n dotNet-goof -> System.Data.SqlClient (>= 4.6.1)",
       "libraryId": "System.Data.SqlClient",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: Microsoft.Win32.Registry from 4.6.0 to 4.5.0. Reference the package directly from the project to select a different version. \n dotNet-goof -> Kentico.Xperience.Libraries 13.0.173 -> System.Diagnostics.EventLog 4.6.0 -> Microsoft.Win32.Registry (>= 4.6.0) \n dotNet-goof -> Microsoft.Win32.Registry (>= 4.5.0)",
-      "libraryId": "Microsoft.Win32.Registry",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: System.Text.Encoding.CodePages from 8.0.0 to 6.0.0. Reference the package directly from the project to select a different version. \n dotNet-goof -> Kentico.Xperience.Libraries 13.0.173 -> MailKit 4.7.1.1 -> MimeKit 4.7.1 -> System.Text.Encoding.CodePages (>= 8.0.0) \n dotNet-goof -> Kentico.Xperience.Libraries 13.0.173 -> System.Text.Encoding.CodePages (>= 6.0.0)",
-      "libraryId": "System.Text.Encoding.CodePages",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net8.0"
       ]
     }
   ]

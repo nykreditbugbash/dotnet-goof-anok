@@ -223,7 +223,7 @@
           "runtimes/win81-x86/native/miutils.dll": {
             "assetType": "native",
             "rid": "win81-x86"
-          }
+          }½
         }
       },
       "Microsoft.NETCore.App/2.2.0": {
