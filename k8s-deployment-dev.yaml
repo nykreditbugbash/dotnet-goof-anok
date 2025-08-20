@@ -21,15 +21,6 @@ spec:
         app.kubernetes.io/name: snyky
         app.kubernetes.io/instance: snyky
     spec:
-      hostAliases:
-      - ip: "127.0.0.1"
-        hostnames:
-        - "foo.local"
-        - "bar.local"
-      - ip: "10.1.2.3"
-        hostnames:
-        - "foo.remote"
-        - "bar.remote"
       hostPID: false
       containers:
         - name: snyky1
@@ -75,10 +66,10 @@ spec:
               cpu: 100
               memory: 100
           securityContext:
-            readOnlyRootFilesystem: false
+            readOnlyRootFilesystem: true
             allowPrivilegeEscalation: false
             runAsNonRoot: true
-            runAsUser: 1
+            runAsUser: 10000
             privileged: false
             capabilities:
               drop:
